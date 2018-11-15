@@ -10,6 +10,16 @@ h1 {
     font-size: 36px;
 }
 
+h2 {
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+
+p {
+    margin-top: 15px;
+    line-height: 1.2;
+}
+
 /* CONTAINERS */
 #headerWrap {
     background-color: #343C3C;
@@ -55,10 +65,10 @@ li a:hover {
 }
 
 #mainBody {
-    width: 70%;
+    width: 65%;
     margin: auto;
     margin-top: 50px;
-    padding: 35px 15px;
+    padding: 35px 20px;
     background-color: #343C3C;
 }
 
@@ -68,6 +78,11 @@ li a:hover {
 
 #articleDiv {
 
+}
+
+#myImage {
+    float: left;
+    margin: 5px 15px 5px 5px;
 }
 
 footer {
