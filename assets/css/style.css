@@ -1,0 +1,80 @@
+/* GLOBAL TAGS */
+body {
+    background-color: #2a2a2a;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #8A8A8A;
+}
+
+h1 {
+    color: #CACACA;
+    font-size: 36px;
+}
+
+/* CONTAINERS */
+#headerWrap {
+    background-color: #343C3C;
+    box-shadow: 1px 1px 1px #8A8A8A;
+}
+
+header {
+    width: 70%;
+    margin: auto;
+    background-color: #343C3C;
+    padding: 15px;
+}
+
+#myName {
+    float: left;
+}
+
+#topNav {
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+#mainBody {
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+    padding: 35px 15px;
+    background-color: #343C3C;
+}
+
+#titleDiv {
+
+}
+
+#articleDiv {
+
+}
+
+footer {
+    width: 70%;
+    margin: auto;
+}
+
+#footerDiv {
+
+}
