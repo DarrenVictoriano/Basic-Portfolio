@@ -1,0 +1,21 @@
+#articleDiv {
+    overflow: hidden;
+}
+
+#artLeftDiv {
+    width: 25%;
+    margin-left: 10px;
+    float: left;
+}
+
+#artRightDiv {
+    float: left;
+}
+.port-img {
+    width: 200px;
+    height: 200px;
+    margin-top: 30px;
+    margin-right: 20px;
+    text-align: center;
+    background-image: url("../images/port_200.png")
+}
