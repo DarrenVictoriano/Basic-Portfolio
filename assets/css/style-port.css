@@ -50,39 +50,3 @@
     padding-top: 20px;
     color: #FFFFFF;
 }
-
-/* Media for screen size 768px */
-@media screen and (max-width: 980px) {
-    /* main body wrapper's width */
-    #artLeftDiv {
-        margin-left: 15px;
-    }
-}
-
-/* Media for screen size 768px */
-@media screen and (max-width: 768px) {
-    /* main body wrapper's width */
-    #artLeftDiv {
-        margin-left: 15px;
-    }
-}
-
-/* Media for screen size 768px */
-@media screen and (max-width: 640px) {
-    /* main body wrapper's width */
-    #artLeftDiv {
-        float: none;
-        margin: auto;
-    }
-    #artRightDiv {
-        float: none;
-        margin: auto;
-    }
-    .port-img {
-        width: 200px;
-        height: 200px;
-        margin: auto;
-        margin-top: 30px;
-        text-align: center;
-    }
-}
