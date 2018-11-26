@@ -12,7 +12,7 @@ html {
   }
 
   body {
-    background-color: #2a2a2a;
+    background-color: #E7E7E7;
     font-family: 'Open Sans', sans-serif;
     color: #8A8A8A;
     position: relative;
@@ -21,7 +21,7 @@ html {
 }
 
 h1 {
-    color: #CACACA;
+    color: #4FA09B;
     font-size: 36px;
     font-weight: 700;
 }
@@ -29,7 +29,7 @@ h1 {
 h2 {
     font-size: 30px;
     padding-bottom: 15px;
-    color: #CACACA;
+    color: #4FA09B;
     font-weight: 400;
 }
 
@@ -40,24 +40,25 @@ p {
 
 /* CONTAINERS */
 #headerWrap {
-    background-color: #343C3C;
+    background-color: #FFFFFF;
     box-shadow: 1px 1px 1px #8A8A8A;
 }
 
 #header {
-    width: 1050px;
+    width: 980px;
     margin: auto;
-    background-color: #343C3C;
-    padding: 15px;
+    background-color: #FFFFFF;
 }
 
 #myName {
-    padding: 14px 16px;
-    width: 120%;
+    width: 300px;
+    padding: 14px 0px;
     text-align: center;
     font-size: 30px;
     margin: auto;
+    background-color: #4FA09B;
     color: white;
+    float: left;
 }
 
 #myNameList {
@@ -77,15 +78,15 @@ li {
 
 li a {
     display: block;
-    color: white;
+    color: #8F90A0;
     text-align: center;
-    padding: 14px 16px;
+    padding: 21px 16px;
     text-decoration: none;
-    margin-top: 10px;
 }
 
 li a:hover {
-    background-color: #111;
+    background-color: #4FA09B;
+    color: #FFFFFF;
 }
 
 #mainBody {
@@ -93,7 +94,7 @@ li a:hover {
     margin: auto;
     margin-top: 50px;
     padding: 35px 20px;
-    background-color: #343C3C;
+    background-color: #FFFFFF;
     margin-bottom: 30px;
 }
 
@@ -118,15 +119,83 @@ footer {
     right: 0;
     left: 0;
     margin-top: 50px;
-    background-color: #343C3C;
-    border-top: 5px solid #507777;
+    background-color: #5B5B5B;
+    border-top: 5px solid #4FA09B;
 }
 
 #footerDiv {
     position: relative;
     width: 70%;
     margin: auto;
-    background-color: #343C3C;
+    background-color: #5B5B5B;
     text-align: center;
     padding: 15px;
+    color: #FFFFFF;
 }
+
+/* Media for screen size 980px */
+@media screen and (max-width: 980px) {
+    /* main body wrapper's width */
+    #header {
+        width: 890px;
+        
+    }
+
+    #mainBody {
+        width: 650px;
+        margin-left: 36px;
+    }
+}
+
+/* Media for screen size 768px */
+@media screen and (max-width: 768px) {
+    /* main body wrapper's width */
+    #header {
+        width: 100%;
+    }
+    #mainBody {
+        width: 550px;
+        margin: auto;
+        margin-top: 50px;
+        padding: 35px 20px;
+
+    }
+    #myName {
+        float: none;
+        width: 100%;
+    }
+    #navList {
+        width: 280px;
+        margin: auto;
+    }
+    li a {
+        margin: 0;
+    }
+}
+
+/* Media for screen size 640px */
+@media screen and (max-width: 640px) {
+    /* main body wrapper's width */
+    #header {
+        width: 100%;
+    }
+    #mainBody {
+        width: 350px;
+        margin: auto;
+        margin-top: 50px;
+        padding: 35px 20px;
+
+    }
+    #myName {
+        float: none;
+        width: 100%;
+    }
+    #navList {
+        width: 280px;
+        margin: auto;
+    }
+    li a {
+        margin: 0;
+    }
+}
+
